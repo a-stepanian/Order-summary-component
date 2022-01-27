@@ -4,7 +4,6 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 /* - Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
 - Dark blue: hsl(223, 47%, 23%) */
 body {
     background: hsl(225, 100%, 94%);
@@ -61,7 +60,6 @@ h1 {
     align-items: center;
 }
 .music {
-    
     transform: scale(.8);
 }
 .planBox {
@@ -85,6 +83,10 @@ h2 {
     font-weight: 700;
     color: hsl(245, 75%, 52%);
 }
+.changeLink:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.6);
+}
 @media (max-width: 400px) {
     .changeLink {
         margin-left: 50px;
@@ -103,6 +105,9 @@ h2 {
     font-weight: 700;
     box-shadow: 0 16px 10px hsla(245, 75%, 52%, 0.15);
 }
+.paymentButton:hover {
+    background-color: hsla(245, 75%, 52%, 0.6);
+}
 .cancelLink {
     margin-top: 25px;
     font-size: 12px;
@@ -110,4 +115,7 @@ h2 {
     text-decoration: none;
     font-weight: 900;
     letter-spacing: 0.4px;
+}
+.cancelLink:hover {
+    color: hsl(223, 47%, 23%);
 }
