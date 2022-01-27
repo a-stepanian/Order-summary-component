@@ -12,7 +12,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Screenshot
 
 ![](./screenshot.jpg)
-![](./mobile.jpg)
+### Hover States
 ![](./hover1.jpg)
 ![](./hover2.jpg)
 
